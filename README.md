@@ -8,7 +8,7 @@ The Handwritten Digit Recognizer project is an interactive application that allo
 
   pip install tensorflow numpy pillow 
 
-3. Run the application by executing the following command:
+2. Run the application by executing the following command:
 
   python gui.py
 
