@@ -22,8 +22,8 @@ draw = ImageDraw.Draw(img)
 def paint(event):
     x1, y1 = (event.x - 10), (event.y - 10)
     x2, y2 = (event.x + 10), (event.y + 10)
-    cv.create_rectangle(x1, y1, x2, y2, fill='white', outline='white')
-    draw.rectangle([x1, y1, x2, y2], fill='white')
+    cv.create_rectangle(x1, y1, x2, y2, fill='white', outline='white', width=5)
+    draw.rectangle([x1, y1, x2, y2], fill='white', width=5)
     cv.update()
 
 
